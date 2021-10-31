@@ -3,8 +3,9 @@
 
 # Bienvenidos a AppContable
 
-AppContable es un aplicativo web que le permitirá tercerizar sus procesos de contabilidad a su empresa.
-## Nombre de la aplicación: (Bajo construcción)
+AppContable es un aplicativo web que le permitirá tercerizar sus procesos de contabilidad a empresas myPymes y unipersonales.
+
+## Nombre de la aplicación: (`Se reciben ideas de nombre`)
 
 - AppContable.
 
@@ -14,8 +15,9 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 
 |Rol| Integrante |
 |--|--|
+| Product Owner | Álvaro Javier Hernández Rueda |
 | Scrum Master | Miguel Angel Vivas |
-| Product Owner | Jairo Solano |
+| Scrum Team | Jairo Solano |
 | Scrum Team | Lina Marcela Perilla Barrios |
 | Scrum Team | Hanner Jose García López |
 | Scrum Team | Diego Alejandro Garcia Cardenas |
@@ -42,16 +44,18 @@ Aquí se deben listar las tareas que compondrán el desarrollo del producto. Div
 
 ## Épica 01
 
->Descripción: "Descripción de la funcionalidad general" 
+>"Descripción de la funcionalidad general" 
+
+Descripción: Desarrollar un aplicativo que registre los ingresos y egresos.
 
 ### Historias de Usuario
 
- *1. HU-01: "Como ... Quiero ... Para ..."*
+ *1. HU-01: "Como contador Quiero neceito registrar los ingresos de pagos y egresos de gastos Para mantener bajo control el estado contable"*
 
 #### Tareas asociadas a la HU-01.
 
-- Tarea 1:
-- Tarea 2:
+- Tarea 1: Implementar el boton de registro de ingresos.
+- Tarea 2: Implementar el boton de registro de egresos.
 
 *2. HU-02: "Como ... Quiero ... Para ..."* 
 
