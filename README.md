@@ -76,14 +76,14 @@ Descripción: Registro de usuarios.
 
 ### Historias de Usuario Épica 02
 
- *1. HU-01: "Como ... Quiero ... Para ..."*
+ *1. HU-01: "Como Administrador Quiero tener acceso a todo el sistema Para autorizar transacciones previamente creadas por los usuarios"*
 
 #### Tareas asociadas a la HU-01.
 
 - Tarea 1:
 - Tarea 2:
 
-*2. HU-02: "Como ... Quiero ... Para ..."* 
+*2. HU-02: "Como administrador Quiero que el ingreso de los usuarios a la aplicación se realice por medio de una vista de inicio de sesión o registro para tener control sobre el acceso y las transacciones"* 
 
 #### Tareas a la HU-02
 
@@ -111,3 +111,11 @@ Descripción: XXXXXXX.
 - Tarea 2:
 
 ` Esta es solo una idea, bienvenido cualquier aporte ;) `
+
+## Ideas de Epicas:
+Implementación de Interfaz de usuario.
+
+## Ideas de Historias de Usuario:
+Como usuario Quiero tener acceso a una vista donde pueda visualizar mis transacciones contables para llevar un control sobre mis ingresos y egresos.
+Como usuario Quiero una interfaz de usuario intuitiva para realizar mis consultas y solicitudes de manera rápida.
+Como administrador Quiero tener la facilidad de encontrar los datos.
