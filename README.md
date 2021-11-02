@@ -25,14 +25,13 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 
 ## Objetivo General
 
-Definición del **Objetivo general**.
+Implementar un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
 
 ###  Objetivos Específicos
 
-- Objetivo específico 1.
-- Objetivo específico 2.
-- Objetivo específico 3.
-- Objetivo específico 4.
+1. Crear un formulario que permita reducir el tiempo que toma a los usuarios crear, modificar o eliminar un registro contable. 
+2. Recopilar información de las transacciones contables que ingresan al sistema de la empresa que permita una mejor búsqueda y control de los datos, y generar registro contable automático.
+3. Implementar una interfaz gráfica que permita una interacción fácil, fluida y segura.
 
 ## Misión.
 
@@ -46,11 +45,11 @@ Aquí se deben listar las tareas que compondrán el desarrollo del producto. Div
 
 >"Descripción de la funcionalidad general" 
 
-Descripción: Desarrollar un aplicativo que registre los ingresos y egresos.
+Descripción: Registro de transacciones contables relacionadas con ingresos y egresos.
 
 ### Historias de Usuario
 
- *1. HU-01: "Como contador Quiero neceito registrar los ingresos de pagos y egresos de gastos Para mantener bajo control el estado contable"*
+ *1. HU-01: "Como contador Quiero registrar los ingresos de pagos y egresos de gastos Para mantener bajo control el estado contable"*
 
 #### Tareas asociadas a la HU-01.
 
@@ -73,10 +72,29 @@ Descripción: Desarrollar un aplicativo que registre los ingresos y egresos.
 
 ## Épica 02
 
-Descripción: "Descripción de la funcionalidad general"
-
+Descripción: Registro de usuarios.
 
 ### Historias de Usuario Épica 02
+
+ *1. HU-01: "Como ... Quiero ... Para ..."*
+
+#### Tareas asociadas a la HU-01.
+
+- Tarea 1:
+- Tarea 2:
+
+*2. HU-02: "Como ... Quiero ... Para ..."* 
+
+#### Tareas a la HU-02
+
+- Tarea 1:
+- Tarea 2:
+
+## Épica 03
+
+Descripción: XXXXXXX.
+
+### Historias de Usuario Épica 03
 
  *1. HU-01: "Como ... Quiero ... Para ..."*
 
