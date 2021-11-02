@@ -1,5 +1,5 @@
 ## GrupoB4-Equipo9
-*Aplicacion web para Oursourcing de Contabilidad*
+*Aplicacion web para Outsourcing de Contabilidad*
 
 # Bienvenidos a AppContable
 
