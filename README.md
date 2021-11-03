@@ -55,8 +55,13 @@ Descripción: Registro de transacciones contables relacionadas con ingresos y eg
 
 - Tarea 1: Implementar el boton de registro de ingresos.
 - Tarea 2: Implementar el boton de registro de egresos.
+- tarea 3: 
 
-*2. HU-02: "Como ... Quiero ... Para ..."* 
+*2. HU-02: "Yo como usuario
+
+Quiero que el aplicativo registre los ingresos y egresos de la empresa
+
+Para tener la utilidad ."* 
 
 #### Tareas a la HU-02
 
