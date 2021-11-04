@@ -35,7 +35,7 @@ Implementar un aplicativo web que ayude a los departamentos de contabilidad de e
 
 ## Misión.
 
-Aquí va la Misión.
+Crear un aplicativo web que permita tercerizar procesos de contabilidad a empresas myPymes y unipersonales.
 
 ## PRODUCT BACKLOG
 
