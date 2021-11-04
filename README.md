@@ -5,7 +5,7 @@
 
 AppContable es un aplicativo web que le permitirá tercerizar sus procesos de contabilidad a empresas myPymes y unipersonales.
 
-## Nombre de la aplicación: (`Se reciben ideas de nombre`)
+## Nombre de la aplicación:
 
 - AppContable.
 
