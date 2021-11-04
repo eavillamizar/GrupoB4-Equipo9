@@ -88,26 +88,6 @@ Descripción: Registro de usuarios.
 - Tarea 1: 
 - Tarea 2: 
 
-## Épica 03
-
-Descripción: XXXXXXX.
-
-### Historias de Usuario Épica 03
-
- *1. HU-01: "Como ... Quiero ... Para ..."*
-
-#### Tareas asociadas a la HU-01.
-
-- Tarea 1:
-- Tarea 2:
-
-*2. HU-02: "Como ... Quiero ... Para ..."* 
-
-#### Tareas a la HU-02
-
-- Tarea 1:
-- Tarea 2:
-
 ## Ideas de Epicas:
 Implementación de Interfaz de usuario.
 
