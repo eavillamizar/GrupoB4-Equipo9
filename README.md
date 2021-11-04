@@ -39,11 +39,7 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 ## PRODUCT BACKLOG
 
-Aquí se deben listar las tareas que compondrán el desarrollo del producto. Divididas en:
-
 ## Épica 01
-
->"Descripción de la funcionalidad general" 
 
 Descripción: Registro de transacciones contables relacionadas con ingresos y egresos.
 
@@ -83,17 +79,14 @@ Descripción: Registro de usuarios.
 
  *1. HU-01: "Como Administrador Quiero tener acceso a todo el sistema Para autorizar transacciones previamente creadas por los usuarios"*
 
-#### Tareas asociadas a la HU-01.
-
-- Tarea 1:
-- Tarea 2:
-
 *2. HU-02: "Como administrador Quiero que el ingreso de los usuarios a la aplicación se realice por medio de una vista de inicio de sesión o registro para tener control sobre el acceso y las transacciones"* 
 
-#### Tareas a la HU-02
+*3. HU-03 Yo como Administrador del sistema requiero crear y autorizar los perfiles de usuario para acceso y funcionalidades de la aplicacion.
 
-- Tarea 1:
-- Tarea 2:
+#### Tareas
+
+- Tarea 1: 
+- Tarea 2: 
 
 ## Épica 03
 
@@ -115,8 +108,6 @@ Descripción: XXXXXXX.
 - Tarea 1:
 - Tarea 2:
 
-` Esta es solo una idea, bienvenido cualquier aporte ;) `
-
 ## Ideas de Epicas:
 Implementación de Interfaz de usuario.
 
@@ -124,3 +115,18 @@ Implementación de Interfaz de usuario.
 Como usuario Quiero tener acceso a una vista donde pueda visualizar mis transacciones contables para llevar un control sobre mis ingresos y egresos.
 Como usuario Quiero una interfaz de usuario intuitiva para realizar mis consultas y solicitudes de manera rápida.
 Como administrador Quiero tener la facilidad de encontrar los datos.
+
+## Epica3.
+Procesamiento de asiento contable. Registro Contable.
+### HU.
+Yo como contador quiero que por cada tipo de asiento contable (ejemplo comporbante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa. 
+### HU. 
+Yo como usuario quiero una interfaz grafica tipo formulario que me permita crear, modificar, eliminar y consultar la informacion necesaria de un asiento contable.
+
+## Epica4. 
+Informes contables
+
+### HU.
+Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad.
+
+#### Tareas de la HU.
