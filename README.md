@@ -39,74 +39,37 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 ## PRODUCT BACKLOG
 
-## Épica 01
+| Id | Tipo | Descripcion | 
+|--|--|--|
+| **EP-01** | **Epica** | **Registro de usuarios** |
+| HU-01 | Historia  | Como Administrador Quiero tener acceso a todo el sistema Para autorizar transacciones previamente creadas por los usuarios |
+| HU-02 | Historia | Como administrador Quiero que el ingreso de los usuarios a la aplicación se realice por medio de una vista de inicio de sesión o registro para tener control sobre el acceso y las transacciones |
+| HU-03 | Historia | Yo como Administrador del sistema requiero crear y autorizar los perfiles de usuario para acceso y funcionalidades de la aplicacion. |
+| TK-01 | Tarea | ** |
+| TK-02 | Tarea | ** |
+| TK-03 | Tarea | ** |
+| **EP-02** | **Epica** | **Procesamiento de asiento contable. Registro Contable.** |
+| HU-04 | Historia | Yo como contador quiero que por cada tipo de asiento contable (ejemplo comporbante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa |
+| HU-05 | Historia | Yo como usuario quiero una interfaz grafica tipo formulario que me permita crear, modificar, eliminar y consultar la informacion necesaria de un asiento contable |
+| HU-06 | Historia | Como contador Quiero registrar los ingresos y egresos  Para mantener bajo control el estado contable y obtener la utilidad |
+| HU-07 | Historia | ** |
+| TK-04 | Tarea | Implementar el boton de registro de ingresos |
+| TK-05 | Tarea | Implementar el boton de registro de egresos |
+| TK-06 | Tarea | ** |
+| **EP-03** | **Epica** | **Informes contables.** |
+| HU-08 | Historia | Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad |
+| HU-0x | Historia | ** |
+| HU-0x | Historia | ** |
+| TK-07 | Tarea | ** |
+| TK-08 | Tarea | ** |
+| TK-09 | Tarea | ** |
 
-Descripción: Registro de transacciones contables relacionadas con ingresos y egresos.
-
-### Historias de Usuario
-
- *1. HU-01: "Como contador Quiero registrar los ingresos de pagos y egresos de gastos Para mantener bajo control el estado contable"*
-
-#### Tareas asociadas a la HU-01.
-
-- Tarea 1: Implementar el boton de registro de ingresos.
-- Tarea 2: Implementar el boton de registro de egresos.
-- tarea 3: 
-
-*2. HU-02: "Yo como usuario
-
-Quiero que el aplicativo registre los ingresos y egresos de la empresa
-
-Para tener la utilidad ."* 
-
-#### Tareas a la HU-02
-
-- Tarea 1:
-- Tarea 2:
-
-*3. HU-03: "Como ... Quiero ... Para ..."* 
-
-#### Tareas a la HU-03
-
-- Tarea 1: 
-- Tarea 2: 
-
-## Épica 02
-
-Descripción: Registro de usuarios.
-
-### Historias de Usuario Épica 02
-
- *1. HU-01: "Como Administrador Quiero tener acceso a todo el sistema Para autorizar transacciones previamente creadas por los usuarios"*
-
-*2. HU-02: "Como administrador Quiero que el ingreso de los usuarios a la aplicación se realice por medio de una vista de inicio de sesión o registro para tener control sobre el acceso y las transacciones"* 
-
-*3. HU-03 Yo como Administrador del sistema requiero crear y autorizar los perfiles de usuario para acceso y funcionalidades de la aplicacion.
-
-#### Tareas
-
-- Tarea 1: 
-- Tarea 2: 
-
-## Ideas de Epicas:
+## Otras Ideas de Epicas:
 Implementación de Interfaz de usuario.
 
-## Ideas de Historias de Usuario:
+## Otras Ideas de Historias de Usuario:
 Como usuario Quiero tener acceso a una vista donde pueda visualizar mis transacciones contables para llevar un control sobre mis ingresos y egresos.
+
 Como usuario Quiero una interfaz de usuario intuitiva para realizar mis consultas y solicitudes de manera rápida.
+
 Como administrador Quiero tener la facilidad de encontrar los datos.
-
-## Epica3.
-Procesamiento de asiento contable. Registro Contable.
-### HU.
-Yo como contador quiero que por cada tipo de asiento contable (ejemplo comporbante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa. 
-### HU. 
-Yo como usuario quiero una interfaz grafica tipo formulario que me permita crear, modificar, eliminar y consultar la informacion necesaria de un asiento contable.
-
-## Epica4. 
-Informes contables
-
-### HU.
-Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad.
-
-#### Tareas de la HU.
