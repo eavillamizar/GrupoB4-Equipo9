@@ -47,29 +47,16 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 | HU-03 | Historia | Yo como Administrador del sistema requiero crear y autorizar los perfiles de usuario para acceso y funcionalidades de la aplicacion. |
 | TK-01 | Tarea | Implementar el boton de registro inicial de usuario |
 | TK-02 | Tarea | Implementar inicio de sesion, que incluya campo de username y password |
-| TK-03 | Tarea | ** |
+| TK-03 | Tarea | Implemenar una vista de registro de usuario nuevo |
 | **EP-02** | **Epica** | **Procesamiento de asiento contable. Registro Contable.** |
-| HU-04 | Historia | Yo como contador quiero que por cada tipo de asiento contable (ejemplo comporbante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa |
+| HU-04 | Historia | Yo como contador quiero que por cada tipo de asiento contable (ejemplo comprobante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa |
 | HU-05 | Historia | Yo como usuario quiero una interfaz grafica tipo formulario que me permita crear, modificar, eliminar y consultar la informacion necesaria de un asiento contable |
-| HU-06 | Historia | Como contador Quiero registrar los ingresos y egresos  Para mantener bajo control el estado contable y obtener la utilidad |
-| HU-07 | Historia | ** |
-| TK-04 | Tarea | Implementar el boton de registro de ingresos |
-| TK-05 | Tarea | Implementar el boton de registro de egresos |
-| TK-06 | Tarea | ** |
+| HU-06 | Historia | Como contador Quiero registrar los ingresos y egresos Para mantener bajo control el estado contable y obtener la utilidad |
+| TK-04 | Tarea | Implementar el boton de creacion de asiento contable |
+| TK-05 | Tarea | Implementar el boton de consulta de asiento contable |
+| TK-06 | Tarea | Implementar el boton de actualizacion de asiento contable |
+| TK-08 | Tarea | Implementar el boton de eliminacion de asiento contable |
+| TK-09 | Tarea | Implementar una vista donde se me muestre un formulario con todos los campos necearios para crear un asiento contable *(fecha, contenido, codigo contable, consecutivo, tercero)* |
 | **EP-03** | **Epica** | **Informes contables.** |
-| HU-08 | Historia | Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad |
-| HU-0x | Historia | ** |
-| HU-0x | Historia | ** |
-| TK-07 | Tarea | ** |
-| TK-08 | Tarea | ** |
-| TK-09 | Tarea | ** |
-
-## Otras Ideas de Epicas:
-Implementación de Interfaz de usuario.
-
-## Otras Ideas de Historias de Usuario:
-Como usuario Quiero tener acceso a una vista donde pueda visualizar mis transacciones contables para llevar un control sobre mis ingresos y egresos.
-
-Como usuario Quiero una interfaz de usuario intuitiva para realizar mis consultas y solicitudes de manera rápida.
-
-Como administrador Quiero tener la facilidad de encontrar los datos.
+| HU-07 | Historia | Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad |
+| TK-07 | Tarea | Implementar una vista de previsualizacion de Informe Contable |
