@@ -45,8 +45,8 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 | HU-01 | Historia  | Como Administrador Quiero tener acceso a todo el sistema Para autorizar transacciones previamente creadas por los usuarios |
 | HU-02 | Historia | Como administrador Quiero que el ingreso de los usuarios a la aplicación se realice por medio de una vista de inicio de sesión o registro para tener control sobre el acceso y las transacciones |
 | HU-03 | Historia | Yo como Administrador del sistema requiero crear y autorizar los perfiles de usuario para acceso y funcionalidades de la aplicacion. |
-| TK-01 | Tarea | ** |
-| TK-02 | Tarea | ** |
+| TK-01 | Tarea | Implementar el boton de registro inicial de usuario |
+| TK-02 | Tarea | Implementar inicio de sesion, que incluya campo de username y password |
 | TK-03 | Tarea | ** |
 | **EP-02** | **Epica** | **Procesamiento de asiento contable. Registro Contable.** |
 | HU-04 | Historia | Yo como contador quiero que por cada tipo de asiento contable (ejemplo comporbante de egresos) se registre un consecutivo, la fecha, el contenido, codigo contable y un tercero, para que se refleje cada transaccion en la contabilidad de la empresa |
