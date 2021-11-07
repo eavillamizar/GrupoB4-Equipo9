@@ -55,8 +55,8 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 | TK-04 | Tarea | Implementar el boton de creacion de asiento contable |
 | TK-05 | Tarea | Implementar el boton de consulta de asiento contable |
 | TK-06 | Tarea | Implementar el boton de actualizacion de asiento contable |
-| TK-08 | Tarea | Implementar el boton de eliminacion de asiento contable |
-| TK-09 | Tarea | Implementar una vista donde se me muestre un formulario con todos los campos necearios para crear un asiento contable *(fecha, contenido, codigo contable, consecutivo, tercero)* |
+| TK-07 | Tarea | Implementar el boton de eliminacion de asiento contable |
+| TK-08 | Tarea | Implementar una vista donde se me muestre un formulario con todos los campos necearios para crear un asiento contable *(fecha, contenido, codigo contable, consecutivo, tercero)* |
 | **EP-03** | **Epica** | **Informes contables.** |
 | HU-07 | Historia | Como usuario quiero realizar consultas de los movimientos contables diarios, mensual, anual para llevar un control de la contabilidad |
-| TK-07 | Tarea | Implementar una vista de previsualizacion de Informe Contable |
+| TK-09 | Tarea | Implementar una vista de previsualizacion de Informe Contable |
