@@ -1,7 +1,7 @@
 ## GrupoB4-Equipo9
 *Aplicacion web para Outsourcing de Contabilidad*
 
-# Bienvenidos a AppContable
+# Bienvenidos a App Contable
 
 AppContable es un aplicativo web que le permitirá tercerizar sus procesos de contabilidad a empresas myPymes y unipersonales.
 
