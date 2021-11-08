@@ -77,5 +77,6 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 ## EVIDENCIA VERSION NODEJS Y ANGULAR
 
 ![imagen](https://user-images.githubusercontent.com/93134902/140676716-fcac115d-d285-4961-ac56-4bc5cca76da7.png)
+
 *Autor: E.Villamizar*
 
