@@ -76,12 +76,14 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 ## EVIDENCIA VERSION NODEJS Y ANGULAR
 
-![imagen](https://user-images.githubusercontent.com/93134902/140676716-fcac115d-d285-4961-ac56-4bc5cca76da7.png)
+![ANGULAR DIEGO GARCIA](https://user-images.githubusercontent.com/90811644/140679537-a621a5f8-06ba-4d4d-843d-eb66dbc0940d.png)
 
-*Autor: E.Villamizar*
+
+*Autor: Diego Garcia*
 
 ## INSTALACION ROBO-3T
 
-![imagen](https://user-images.githubusercontent.com/93134902/140679149-73ff7efe-7f9d-4bf2-8e7d-29a08fb55569.png)
+![ROBO 3T DIEGO GARCIA](https://user-images.githubusercontent.com/90811644/140679490-26ddfa0d-608c-447f-887f-c353655436ab.png)
 
-*Autor: E.Villamizar*
+
+*Autor: Diego Garcia*
