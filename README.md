@@ -25,7 +25,7 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 
 ## Objetivo General
 
-Implementar un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
+AppContable en un aplicativo web que ayuda a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
 
 ###  Objetivos Específicos
 
