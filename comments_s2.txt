@@ -1,0 +1,22 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 2:
+
+1. Si bien los nombres de las entidades y los campos no son muy descriptivos, creo que le cogí la pita al diagrama. Sin embargo, hay algunas cosas que no están muy claras:
+    a. Si no estoy mal, por ejemplo, la tabla DIR busca guardar los datos del cliente, en ese caso, se evidencia una relacion tipoid, en ese caso, no se logra identificar la entidad tipo, hace falta incluirla en el diagram.
+    b. Es necesario guardar por aparte cada uno de los nombres y los apellidos?
+    c. Los datos de la ciudad no estarían mejor en una entidad aparte?
+    d. No es claro que son los tif.
+    e. Se evidencia el campo tipo_cta pero no se describe esta entidad.
+    f. Se evidencia el campo tipo_comprobante pero no se describe esta entidad al igual que tipo_documento y id_comprobante.
+    g. Se interpreta que tracon es el encabezado de la transacción, en ese caso, sería mejor seguir una estructura clásica donde se tiene una entidad TransaccionEncabezado en la que se relacionan los datos principales, por ejemplo, cliente, fecha, vence, tipo y demás. Y aparte, una entidad TransaccionDetalle donde se asocian los diferentes codigos de las transacciones.
+
+2. Se evidencian los pantallazos de las instalaciones. Felicitaciones por ello chicos 👏
+
+RESPUESTAS A LOS COMENTARIOS.
+
+a. 
+b. 
+c. 
+d. No se observa bien en la imagen, pero realmente 
+e. 
+f. 
+g. 
