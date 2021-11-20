@@ -67,12 +67,24 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 | HU-13 | Historia | Como usuario quiero que exista un boton para generar el informe mensual de los registros Para tener la informacion de manera automatizada |
 | HU-14 | Historia | Como usuario quiero que exista un boton para imrpimir el informe generado para tener el informe impreso cuando sea necesario |
 | TK-09 | Tarea | Implementar una vista de previsualizacion de Informe Contable |
+
 # SPRINT 2
+
 ## DIAGRAMA DE CLASES 
+
 ![image](https://user-images.githubusercontent.com/90942232/140674642-bf14cb6e-3acc-4a6b-8671-baa75a9cfcbb.png)
+
 ## EVIDENCIA VERSION NODEJS Y ANGULAR
 ![image](https://user-images.githubusercontent.com/68785130/140678653-f0e7d997-4017-4d1a-89a0-8b03d2d9bb8a.png)
 
 
 
+![imagen](https://user-images.githubusercontent.com/93134902/140676716-fcac115d-d285-4961-ac56-4bc5cca76da7.png)
 
+*Autor: E.Villamizar*
+
+## INSTALACION ROBO-3T
+
+![imagen](https://user-images.githubusercontent.com/93134902/140679149-73ff7efe-7f9d-4bf2-8e7d-29a08fb55569.png)
+
+*Autor: E.Villamizar*
