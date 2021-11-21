@@ -7,7 +7,7 @@ const routes: Routes = [
   //{path: 'create', component: CreatePostComponent} // dependiendo de la ruta (path) renderiza un componente
   { path: '', component: ListMaeComponent }, // renderiza la ruta principal
   { path: 'create', component: CreateMaeComponent }, // renderiza la ruta de crear post
-  { path: 'edit/:postId', component: CreateMaeComponent },
+  { path: 'edit/:maeId', component: CreateMaeComponent },
 ];
 
 @NgModule({

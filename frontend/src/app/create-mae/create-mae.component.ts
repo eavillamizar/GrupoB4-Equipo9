@@ -5,7 +5,7 @@ import { Mae } from 'src/models/mae.models'; // importar libreria
 import { MaeService } from '../services/mae.service'; // importar clase definida para los servicios
 
 @Component({
-  selector: 'app-create-mae',
+  selector: 'create-mae',
   templateUrl: './create-mae.component.html',
   styleUrls: ['./create-mae.component.css']
 })
