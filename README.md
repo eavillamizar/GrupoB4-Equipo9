@@ -24,7 +24,7 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 
 ## Objetivo General
 
-AppContable es un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
+AppContable en un aplicativo web que ayuda a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
 
 ## Misión.
 
@@ -68,6 +68,9 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 ![image](https://user-images.githubusercontent.com/90942232/140674642-bf14cb6e-3acc-4a6b-8671-baa75a9cfcbb.png)
 
 ## EVIDENCIA VERSION NODEJS Y ANGULAR
+![image](https://user-images.githubusercontent.com/68785130/140678653-f0e7d997-4017-4d1a-89a0-8b03d2d9bb8a.png)
+
+
 
 ![imagen](https://user-images.githubusercontent.com/93134902/140676716-fcac115d-d285-4961-ac56-4bc5cca76da7.png)
 
