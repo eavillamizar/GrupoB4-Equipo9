@@ -19,19 +19,12 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 | Scrum Master | Miguel Angel Vivas |
 | Scrum Team | Jairo Solano |
 | Scrum Team | Lina Marcela Perilla Barrios |
-| Scrum Team | Hanner Jose García López |
 | Scrum Team | Diego Alejandro Garcia Cardenas |
 | Scrum Team | Edgar Villamizar |
 
 ## Objetivo General
 
-Implementar un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
-
-###  Objetivos Específicos
-
-1. Crear un formulario que permita reducir el tiempo que toma a los usuarios crear, modificar o eliminar un registro contable. 
-2. Recopilar información de las transacciones contables que ingresan al sistema de la empresa que permita una mejor búsqueda y control de los datos, y generar registro contable automático.
-3. Implementar una interfaz gráfica que permita una interacción fácil, fluida y segura.
+AppContable es un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
 
 ## Misión.
 
