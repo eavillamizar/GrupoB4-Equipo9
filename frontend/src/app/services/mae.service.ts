@@ -10,9 +10,9 @@ import { Mae } from 'src/models/mae.models';
   providedIn: 'root'
 })
 export class MaeService {
-  url="http://localhost:3000/api/maes";
+  url='http://localhost:3000/api/maes';
   maes: Mae[] = []; // variable o lista donde se almacenan los Post
-  maeUpdated = new Subject<Mae[]>(); // variable = new Subject<tipo: arrglo de Post>()
+  maeUpdated = new Subject<Mae[]>(); // variable = new Subject<tipo: arreglo de Post>()
 
   constructor(private router: Router, private http: HttpClient) {}
 
@@ -29,6 +29,14 @@ export class MaeService {
   }
 
   getMaes() {
+    this.http.get<Mae[]>(this.url).subscribe((response) => {
+      console.log(response);
+      this.maes = response;  //Para manejar en memoria de lo que se optiene de la peticion
+      this.maeUpdated.next([...this.maes]); // Para realizar la actualizacion
+    });
+
+  }
+  /*getMaes() {
     this.http
       .get<any>(this.url)
       .pipe(
@@ -53,18 +61,18 @@ export class MaeService {
         this.maes = response;
         this.maeUpdated.next([...this.maes]);
       });
-  }
+  }*/
 
   deleteMae(id: string) {
     this.http.delete(`${this.url}/${id}`).subscribe((response) => {
       console.log(response);
-      const maesFiltered = this.maes.filter((mae) => mae.id != id);
-      this.maes = maesFiltered;
+      //const maesFiltered = this.maes.filter((mae) => mae.id != id);
+      //this.maes = maesFiltered;
       this.maeUpdated.next([...this.maes]);
     });
   }
 
-  updateMae(mae: Mae, id: string) {
+  /*updateMae(mae: Mae, id: string) {
     this.http.put(`${this.url}/${id}`, mae).subscribe((response) => {
       const newMaes = [...this.maes];
       const oldMaeIndex = newMaes.findIndex((mae) => mae.id === id);
@@ -72,7 +80,7 @@ export class MaeService {
       this.maeUpdated.next([...this.maes]);
       this.router.navigate(['/']);
     });
-  }
+  }*/
 
   getMaesUpdateListener(){
     return this.maeUpdated.asObservable();
