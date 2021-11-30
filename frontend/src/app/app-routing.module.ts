@@ -8,10 +8,11 @@ const routes: Routes = [
   { path: '', component: ListMaeComponent }, // renderiza la ruta principal
   { path: 'create', component: CreateMaeComponent }, // renderiza la ruta de crear post
   { path: 'edit/:maeId', component: CreateMaeComponent },
+  //{ path: 'add', component: CreateMaeComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
