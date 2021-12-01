@@ -1,0 +1,6 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 1, este feedback no afecta la nota del sprint:
+
+1. Recuerden que la idea del objetivo del proyecto es dar una descipción atractiva, clara y consisa de lo que se está desarrollado, digamos que va por buen camino el texto del principio, "AppContable es un aplicativo..." eso debería ser el objetivo, mezclado con lo que tienen en objetivo general. Por otro lado, los objetivos específicos son más tareas que objetivos y esto podemos simplemente quitarlo. 
+
+2. El product Backlog está super bien chicos. Felicitaciones por ello 🥳
+

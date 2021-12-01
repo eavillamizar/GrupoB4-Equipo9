@@ -19,19 +19,12 @@ A continuación se listan los colaboradores e integrantes del grupo de desarroll
 | Scrum Master | Miguel Angel Vivas |
 | Scrum Team | Jairo Solano |
 | Scrum Team | Lina Marcela Perilla Barrios |
-| Scrum Team | Hanner Jose García López |
 | Scrum Team | Diego Alejandro Garcia Cardenas |
 | Scrum Team | Edgar Villamizar |
 
 ## Objetivo General
 
-Implementar un aplicativo web que ayude a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
-
-###  Objetivos Específicos
-
-1. Crear un formulario que permita reducir el tiempo que toma a los usuarios crear, modificar o eliminar un registro contable. 
-2. Recopilar información de las transacciones contables que ingresan al sistema de la empresa que permita una mejor búsqueda y control de los datos, y generar registro contable automático.
-3. Implementar una interfaz gráfica que permita una interacción fácil, fluida y segura.
+AppContable en un aplicativo web que ayuda a los departamentos de contabilidad de empresas pequeñas y/o unipersonales en el procesamiento de transacciones contables diarias tales como consulta, creación, eliminación y actualización de registro de compras, ventas y gastos.
 
 ## Misión.
 
@@ -75,6 +68,9 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 ![image](https://user-images.githubusercontent.com/90942232/140674642-bf14cb6e-3acc-4a6b-8671-baa75a9cfcbb.png)
 
 ## EVIDENCIA VERSION NODEJS Y ANGULAR
+![image](https://user-images.githubusercontent.com/68785130/140678653-f0e7d997-4017-4d1a-89a0-8b03d2d9bb8a.png)
+
+
 
 ![ANGULAR DIEGO GARCIA](https://user-images.githubusercontent.com/90811644/140679537-a621a5f8-06ba-4d4d-843d-eb66dbc0940d.png)
 
