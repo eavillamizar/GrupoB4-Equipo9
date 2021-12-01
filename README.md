@@ -75,11 +75,11 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 ![ANGULAR DIEGO GARCIA](https://user-images.githubusercontent.com/90811644/140679537-a621a5f8-06ba-4d4d-843d-eb66dbc0940d.png)
 
 
-*Autor: Diego Garcia*
-
 ## INSTALACION ROBO-3T
 
 ![ROBO 3T DIEGO GARCIA](https://user-images.githubusercontent.com/90811644/140679490-26ddfa0d-608c-447f-887f-c353655436ab.png)
 
 
-*Autor: Diego Garcia*
+# SPRINT 3
+## DIAGRAMA DE CLASES FUNCIONALIDADES CRUD
+![Diagramas de Clases UML (1)](https://user-images.githubusercontent.com/90811644/144167928-ebda891f-1377-4409-8275-1cc13eb60c4d.png)
