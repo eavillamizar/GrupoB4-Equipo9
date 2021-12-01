@@ -18,7 +18,7 @@ const MaeController = require( "../controllers/maes")
 router.get('/', MaeController.getMaes); //llamamos el metodo que se va a utilizar "get" y dentro especificamos la ruta y el metodo (la logica) que se va a ejecutar que a la vez se encapsula en un controlador
 router.post('/', MaeController.addMae);
 router.delete('/:id', MaeController.deleteMae); // '/:id' con esto reconoce que la url es un parametro (usado en /controllers.posts.js en el metodo deleteMae)
-
+router.put('/:id', MaeController.updateMae);
 // exportamos router para su uso afuera
 module.exports = router
 

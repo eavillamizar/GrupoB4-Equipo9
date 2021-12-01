@@ -54,3 +54,16 @@ exports.deleteMae = (req, res) => {
 		}
 });
 };
+
+exports.updateMae = (req, res) => {
+	const id= req.params.id;
+	const mae = new Mae({
+		_id: id,
+		codigo: req.body.codigo,
+		nombre: req.body.nombre,
+	});
+	Mae.updateOne({_id: id}, mae).then((result) => {
+		console.log(result);
+		res.status(200).json({message:"Actualizacion Exitosa"});
+	});
+};
