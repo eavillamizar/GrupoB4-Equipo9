@@ -83,3 +83,19 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 # SPRINT 3
 ## DIAGRAMA DE CLASES FUNCIONALIDADES CRUD
 ![Diagramas de Clases UML (1)](https://user-images.githubusercontent.com/90811644/144167928-ebda891f-1377-4409-8275-1cc13eb60c4d.png)
+
+# SPRINT 4
+## WIREFRAME
+
+## LISTAR MAESTRO DE CUENTAS
+![wireframe_1](https://user-images.githubusercontent.com/90811644/144170968-e1963b68-9afa-41a1-b3a7-45634b809c1d.JPG)
+
+## CREAR MAESTRO DE CUENTAS
+![wireframe_2](https://user-images.githubusercontent.com/90811644/144171007-9f1047c5-b405-4866-9d4d-20c84f8bcfc6.JPG)
+
+## LOGIN
+![wireframe_3](https://user-images.githubusercontent.com/90811644/144171040-3c48948c-5aab-4d70-a406-5609b36f6665.JPG)
+
+## REGISTRO
+![wireframe_4](https://user-images.githubusercontent.com/90811644/144171053-10ff0a30-d410-4075-948d-bd76c61d064e.JPG)
+
