@@ -103,4 +103,12 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 Ver en: ComponentesFrontend.txt
 
+# PRUEBAS UNITARIAS CON LA HERRAMIENTA INSONMIA
+
+Ver en: 
+
+![PRUEBAS_UNITARIAS_INSONMIA](https://user-images.githubusercontent.com/90811644/144172659-94579109-25e8-4d4a-9cdc-854f541e84df.jpeg)
+
+
+
 
