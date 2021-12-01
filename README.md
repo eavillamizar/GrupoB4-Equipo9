@@ -101,6 +101,6 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 # COMPONENTES FRONTEND
 
-ComponentesFrontend.txt
+Ver en: ComponentesFrontend.txt
 
 
