@@ -105,10 +105,6 @@ Ver en: ComponentesFrontend.txt
 
 # PRUEBAS UNITARIAS CON LA HERRAMIENTA INSONMIA
 
-Ver en: 
+Ver en: Insomnia_2021-11-30.json
 
 ![PRUEBAS_UNITARIAS_INSONMIA](https://user-images.githubusercontent.com/90811644/144172659-94579109-25e8-4d4a-9cdc-854f541e84df.jpeg)
-
-
-
-
