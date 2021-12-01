@@ -100,6 +100,7 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 ![wireframe_4](https://user-images.githubusercontent.com/90811644/144171053-10ff0a30-d410-4075-948d-bd76c61d064e.JPG)
 
 # COMPONENTES FRONTEND
-https://github.com/DiegoGarcia0319/GrupoB4-Equipo9/blob/main/ComponentesFrontend.txt
+
+ComponentesFrontend.txt
 
 
