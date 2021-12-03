@@ -78,10 +78,10 @@ Crear un aplicativo web que permita tercerizar procesos de contabilidad a empres
 
 ![image](https://user-images.githubusercontent.com/18053764/140940927-713ae843-fe5c-4b1e-8359-91900909b984.png)
 
-*Autor: Jairo Solano Gomez*
+
 
 ## INSTALACION ROBO-3T
 
 ![image](https://user-images.githubusercontent.com/18053764/140941299-4200ca51-c5b3-4dff-806b-c67916728362.png)
 
-*Autor: Jairo Solano Gomez*
+
