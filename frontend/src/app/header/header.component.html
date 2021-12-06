@@ -10,8 +10,18 @@
       <!-- la etiqueta 'a' permite indicar una ruta a un boton -->
       <!-- se utiliza routerLink en vez de href = ' xxxxx ' para llevar a cabo la redireccion-->
       <!-- con routerLink no se borran los datos de la memoria-->
-      <a mat-button routerLink="/create" routerLinkActive="mat-accent">CrearMAE</a>
-      <a mat-button routerLink="/login" routerLinkActive="mat-accent">Login</a>
+      <!--<a mat-button routerLink="/create" routerLinkActive="mat-accent">CrearMAE</a>-->
+      <a mat-button routerLink="/add" routerLinkActive="mat-accent" *ngIf="isLogin ===true">Agregar</a>
     </li>
+    <li>
+      <button mat-button *ngIf="isLogin ===true" (click) = "onLogout()">Logout</button>
+    </li>
+    <li>
+      <a mat-button routerLink="/login" routerLinkActive="mat-accent" *ngIf="isLogin ===false">Login</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/signup" routerLinkActive="mat-accent" *ngIf="isLogin ===false" >Registro</a>
+    </li>
+
   </ul>
 </mat-toolbar>

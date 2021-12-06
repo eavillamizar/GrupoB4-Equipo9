@@ -12,13 +12,13 @@ const Mae = require("../models/mae");
 //Las constantes de maes que estaba en el index.js, nos las traemos aca.
 const maes =[
 	{
-		id: "001",
+		//id: "001",
 		codigo:"0001001",
 		nombre:"Activos fijos"
 	},
 
 	{
-		id: "002",
+		//id: "002",
 		codigo:"0002001",
 		nombre:"Pasivos corrientes"
 	},
@@ -34,10 +34,12 @@ exports.addMae = (req, res) => {
 	console.log(req.body);
 	//maes.push(req.body);  //Nos sirve para hacer registros en memoria. Lo desabilitamos porque ya entrariamos a trabajar con BD.
 	const maeAdd = new Mae({
-		id:req.body.id,
+		//id:req.body.id,
 		codigo:req.body.codigo,
 		nombre:req.body.nombre,
+		//author: req.userData.userId,		
 	});
+
 	maeAdd.save().then((createdMae) => {
 		console.log(createdMae);
 		res.status(201).json({message: "Mae creado"});
@@ -62,8 +64,35 @@ exports.updateMae = (req, res) => {
 		codigo: req.body.codigo,
 		nombre: req.body.nombre,
 	});
-	Mae.updateOne({_id: id}, mae).then((result) => {
+	
+	Mae.updateOne({ _id: id}, mae).then((result) => {
+		console.log
+		if (result.modifiedCount >0){
+			res.status(200).json({message:"Actualizacion Exitosa"});
+		} else {
+			res.status(200).json({message:"Actualizacion fallida"});
+		}
+		
+		}
+	);	
+	
+	// lo anterior tambien se puede asi:
+	/*Mae.findByIdAndUpdate(id).then(() => {
 		console.log(result);
 		res.status(200).json({message:"Actualizacion Exitosa"});
+	})*/
+};
+
+exports.getMae = (req, res) => {
+	const id= req.params.id;      //capturamos el Id y lo igualamos a una variable id
+	
+	Mae.findOne({_id: id}).then((result) => {
+		console.log(result);
+		res.status(200).json(result);
 	});
+	//Lo anterior, tambien se puede usar de esta forma:
+	/*Mae.findById(id).then((result) => {
+		console.log(result);
+		res.status(200).json(result);
+	})*/
 };
