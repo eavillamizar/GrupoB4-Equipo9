@@ -13,6 +13,7 @@ const app = express();
 
 //Importamos las routes.
 const maeRoutes = require("./routes/maes");
+const userRoutes = require("./routes/users");
 
 //configuracion de la aplicación:
 app.use(express.json());
@@ -29,8 +30,8 @@ mongoose.connect(
     });
 
 //compilamos las routes del contexto (mae) en una general y se concatena a la ruta producto.
-app.use("/api/maes",maeRoutes)   //Compila estas rutas y aqui hacemos la general y a este le concatenamos la ruta de producto que para nuestro ejemplo es maeRoutes
-
+app.use("/api/maes",maeRoutes);   //Compila estas rutas y aqui hacemos la general y a este le concatenamos la ruta de producto que para nuestro ejemplo es maeRoutes
+app.use("/api/users", userRoutes);
 
 //Exportar el archivo
 module.exports = app;   //exportando la instancia app

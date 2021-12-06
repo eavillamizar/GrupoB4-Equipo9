@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 import { Mae } from 'src/models/mae.models';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MaeService {
   url='http://localhost:3000/api/maes';
@@ -91,13 +91,17 @@ export class MaeService {
   }
 
   updateMae(mae: Mae, id: string) {
-    this.http.put(`${this.url}/${id}`, mae).subscribe((response) => {
-      const newMaes = [...this.maes];
-      const oldMaeIndex = newMaes.findIndex((mae) => mae.id === id);
+    this.http.put(`${this.url}/${id}`, mae).subscribe((response) => {  //Se hace la peticion al backend "this.http.put(`${this.url}/${id}`, mae)" y se suscribe para que cuando exista una respuesta realice ciertas tareas.
+      const newMaes = [...this.maes];  //se crea una copia de la lista (Mae) y se guarda en una constante.
+      const oldMaeIndex = newMaes.findIndex((mae) => mae.id === id); // Buscaremos el indice de ese elemento en la lista que es el que estamos actualizando. llamamos a la copia que hicimos y utilizamos una funcion llamada findIndex, Esa funcion basada en una condicion, nos devuelve el indice de ese objeto.
       newMaes[oldMaeIndex] = mae;
-      this.maeUpdated.next([...this.maes]);
-      this.router.navigate(['/']);
+      this.maeUpdated.next([...this.maes]); //Se genera la notificacion
+      this.router.navigate(['/']);  // Redireccion hacia la ruta raiz.
     });
+  }
+
+  getMae(id:string) {
+    return this.http.get<{_id:string, codigo:string, nombre:string}>(`${this.url}/${id}`);
   }
 
   getMaesUpdateListener(){
