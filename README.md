@@ -108,3 +108,27 @@ Ver en: ComponentesFrontend.txt
 Ver en: Insomnia_2021-11-30.json
 
 ![PRUEBAS_UNITARIAS_INSONMIA](https://user-images.githubusercontent.com/90811644/144172659-94579109-25e8-4d4a-9cdc-854f541e84df.jpeg)
+
+# SPRINT 5
+
+## PANTALLAZOS FUNCIONAMIENTO DESPLIEGUE
+
+HEROKU. 
+
+![heroku1](https://user-images.githubusercontent.com/93134902/144931218-a0e397af-f570-44d6-afb0-19556a0abfbd.jpg)
+
+VISTA INICIAL DE LA APLIACION
+
+![appInicio1](https://user-images.githubusercontent.com/93134902/144931567-3de37133-f12c-430f-a340-42755a1b1b73.jpg)
+
+PRUEBAS INSOMNIA
+
+![insomniaGETmaes](https://user-images.githubusercontent.com/93134902/144931895-fa6b3499-2ab9-4b2b-99ea-6982c0fccd0f.jpg)
+
+Prueba de peticion GET.
+
+LOGIN Y AUTENTICACION (token)
+
+![insomniaToken](https://user-images.githubusercontent.com/93134902/144932179-fb37544c-3041-4070-b037-0950f37c5c28.jpeg)
+
+Prueba de borrado de registro utilizando token para autenticacion.
